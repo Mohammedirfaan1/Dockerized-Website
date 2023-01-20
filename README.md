@@ -17,20 +17,22 @@ Step 4: first you have a to create a custom docker image for running the docker 
         COMMAND : docker build -t website:latest .  
         
         /*(build -> command , -t-> which stands for tag , website ->(image name) . -> represent current location)*/
-        
+       
+Step 5 : To view the docker images 
+
         COMMAND : docker images    
         
         /*(to view our images with has corresponding imaged id and size)*/
         
-Step 5: To run a docker container 
+Step 6: To run a docker container 
 
         COMMAND : docker run --name demowebsite -p 8080:80 -d webiste:latest
         
                     /* ( --name -> name of the container , -p -> port , -d -> to run container in deatch mode )*/
                      
-Step 6 : Type http://localhost:8080/ in your web browser 
+Step 7 : Type http://localhost:8080/ in your web browser 
 
-Step 7 : Dont forget  to stop the container 
+Step 8 : Dont forget  to stop the container 
    
          COMMAND : docker stop demowebsite   
          
