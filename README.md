@@ -6,7 +6,7 @@ Follow the steps to run the project in your environment.
 
 Step 1: Download the repository in your system
 
-Step 2: Download the docker hub and make the setup for running the docker project.
+Step 2: Download the docker desktop and make the setup for running the docker project.
 
 Step 3: you can run docker in wsl2, Linux, windows, or Mac environment 
 
